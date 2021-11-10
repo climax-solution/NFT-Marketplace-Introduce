@@ -1,0 +1,539 @@
+body {
+  background: #0D1B30 !important;
+  overflow-x: hidden;
+}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5 !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 15px;
+  padding: 14px 0;
+  line-height: 1.5;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  background: linear-gradient(90deg, #07253D 0%, #06466A 50%, #0477AE 100%)
+}
+
+.nav-li {
+  padding: 0 25px;
+  list-style-type: none;
+}
+
+.nav-li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav-bar {
+  display: flex;
+  margin: 0;
+}
+
+#menu { 
+  position: absolute;
+  right: 0;
+}
+
+.nav-li a {
+  color: #97e5f7;
+}
+
+.nav-li a:hover, .nav-li a:focus {
+  color: #17C8F1;
+}
+
+.toggle-button {
+  display: none;
+  margin-right: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  float: right;
+}
+
+.original-buy-back {
+  background-image: url('./img/crimsonblue-1920.avif');
+  min-height: calc(max(57vw,371px));
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+}
+
+.original-content {
+  max-width: 790px;
+}
+
+.original-content h2 {
+  font-size: 30px !important;
+}
+.original-content h2 {
+  padding: 30px 0;
+  font-weight: 700;
+}
+.gradient {
+  background: linear-gradient( 90deg, #F89C47 0%, #F36A34 50%, #EE532B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+  color: transparent;
+}
+
+.trade-button {
+  background: linear-gradient( 90deg, #F89C47 0%, #F36A34 50%, #DC413D 100%);
+  border: 0px none;
+  color: white;
+  width: 100%;
+  max-width: 212px;
+  margin: 20px 6px;
+  vertical-align: middle;
+  font-weight: 700;
+  position: relative;
+  height: 52px;
+  cursor: pointer;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.trade-button:before {
+  content: "";
+  border: 4px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient( 90deg, #F89C47 0%, #F36A34 50%, #DC413D 100%);
+  width: 228px;
+  display: block;
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  height: 68px;
+  pointer-events: none;
+}
+
+.trade-button:hover {
+  background: linear-gradient( 90deg, #07EFF0 0%, #06BDF9 50%, #0682DA 100%);
+}
+
+.trade-button:hover:before {
+  border-image-source: linear-gradient( 90deg, #07EFF0 0%, #06BDF9 50%, #0682DA 100%);
+}
+
+.everise-lifecycle {
+  background: linear-gradient( 90deg, #072a46, #008AC9);
+  padding: 40px;
+}
+
+.img-block img {
+  height: 690px;
+  width: 660px;
+}
+.everise-lifecycle-title {
+  border: none;
+  border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient( 90deg, #F89C47 0%, #F36A34 50%, #DC413D 100%);
+  display: inline-block;
+  pointer-events: none;
+}
+
+.everise-block, .buyback-block {
+  width: 580px;
+  float: right;
+  max-width: calc(100vw - 150px);
+}
+.buyback-function {
+  padding: 40px;
+  background-image: url(./img/kraken_whale.avif);
+  background-size: cover;
+  padding-bottom: 80px;
+}
+
+.buyback-function *, .everise-lifecycle * {
+  text-align: left;
+}
+
+.arrow-up {
+  width: 0;
+    height: 0;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-bottom: calc(min(120px, 12.5vw)) solid #064c72;
+    margin-top: calc(max(-120px, -12.5vw));
+    pointer-events: none;
+}
+
+.arrow-fill {
+  width: 100%;
+  height: 10px;
+  background: #064c72;
+}
+
+.chevron-up {
+  width: 0;
+  height: 0;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-bottom: calc(min(120px, 12.5vw)) solid #0D1B30;
+  margin-top: calc(max(-120px, -12vw));
+  pointer-events: none;
+  position: relative;
+}
+
+.protocol-block {
+  background-image: url(./img/protocol.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.protocol-block h1{
+  padding: 30px 0;
+}
+
+.three_panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  text-align: center;
+  max-width: 920px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.feature {
+  background: rgb(172,38,63);
+  background: linear-gradient( 180deg, #063258 0%, #025D88 50%, #0078A5 100%);
+  text-align: center;
+  padding: 18px 18px 0 18px;
+  width: 250px;
+  height: 350px;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.feature img {
+  width: 75px;
+  height:  75px;
+}
+
+.finance-panel {
+  background-image: url(./img/financialchess2.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 180px;
+  background-position: center;
+}
+
+.summary {
+  font-size: 21px;
+  color: white;
+  max-width: 910px;
+  margin: auto;
+  padding-top: 170px;
+  font-weight: 700;
+}
+
+.how-to-buy {
+  background: linear-gradient(180deg, #002a54 0%, #0373b2 100%);
+  padding-bottom: 160px;
+}
+
+.how-to-buy-panel {
+  margin: 0;
+  text-align: left;
+  width: calc(100% - 10px);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  max-width: 960px;
+  margin: auto;
+  padding: 0;
+  padding-bottom: 40px;
+  list-style: none;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 700 !important;
+}
+
+.fee, .fee h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.fee-number {
+  font-size: 68px;
+  font-weight: 700;
+}
+
+.how-to-buy-panel li {
+  background: #084063;
+  padding: 18px;
+  display: grid;
+  grid-template-columns: 42px 1fr;
+}
+
+.how-to-buy-title {
+  font-size: 42px;
+  text-align: center;
+  font-weight: 700;
+  padding: 32px 0;
+}
+
+.two_panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.how-to-buy-panel li img {
+  width: 32px;
+  height: 32px;
+}
+
+.how-to-buy-panel li h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.ecosystem-panel {
+  text-align: center;
+  background-image: url(./img/dapp_grid.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 8;
+  position: relative;
+}
+
+.ecosystem-logo {
+  width: 400px;
+  max-width: 100%;
+}
+
+.ecosystem-card-list {
+  text-align: center;
+  padding: 40px 0 80px 0;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.ecosystem-card {
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  background: linear-gradient( 180deg, #063359 0%, #0078A5 100%);
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.ecosystem-card h3 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.ecosystem-card h4 {
+  font-weight: 700;
+  font-size: 22px;
+  margin: 0;
+  padding: 0 0 23px 0;
+}
+
+.ecosystem-card:nth-child(1) {
+  border: 1px solid #D76743;
+  background: transparent;
+}
+.ecosystem-card *, .how-to-buy-panel li * {
+  color: white;
+}
+
+.ecosystem-card img {
+  width: calc(100% - 125px);
+}
+
+.external-api {
+  background: #014E7A;
+  padding-bottom: 30px;
+}
+
+.external-api h1 {
+  padding: 32px 0;
+  color: white;
+}
+
+.external-api img {
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+}
+
+.footer {
+  padding: 30px 0;
+}
+
+.footer-logo {
+  width: 176.5px;
+}
+
+.socials {
+  padding: 30px 0;
+}
+
+.socials img{
+  width: 32px;
+  height: 32px;
+  margin: 8px;
+}
+
+@media screen and (max-width: 930px) {
+  .nav-bar {
+    display: none;
+    top: 70px;
+    background-color: #0d6efd;
+    padding: 20px;
+    grid-gap: 10px;
+    clear: both;
+  }
+
+  .toggle-button {
+    display: block;
+  }
+
+  #menu {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 820px ) {
+  .three_panel, .two_panel {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.team-header {
+  background-image: url(./img/team-header-1920.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  padding: 50px 0 100px 0;
+  margin-bottom: 10px;
+}
+
+.team-header h1 {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 56px;
+}
+
+.team-card-list {
+  text-align: center;
+  max-width: 980px;
+  margin: auto;
+}
+
+.team-card {
+  width: 240px;
+  margin-bottom: 20px;
+  padding: 20px 10px;
+  display: inline-block;
+  height: 340px;
+  overflow: hidden;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(to bottom, #9B1039, #D35B44, #F5A24C);
+  position: relative;
+}
+
+.team-card img {
+  width: 120px;
+  height: 120px;
+}
+
+.team-card h3 {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.team-card h4 {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.member-info {
+  margin-top: 20px;
+}
+
+.footer-arrow-group {
+  margin-top: 150px;
+}
+
+
+@media (max-width: 640px) {
+  .everise-lifecycle.two_panel {
+    grid-template-columns: minmax(calc(100% - 40px), 1fr) 1fr;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .img-block {
+    display: none;
+  }
+}
+
+.footer-btn-group .trade-button{
+  margin: 40px 20px 20px 20px ;
+}
