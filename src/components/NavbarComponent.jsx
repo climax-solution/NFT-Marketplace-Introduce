@@ -8,6 +8,7 @@ export default function NavbarComponent () {
       window.addEventListener('load', () => {
         if (window.innerWidth < 930) {
           setIsMini(true);
+          setVisible(false);
         }
         else setIsMini(false);
       })
@@ -15,6 +16,7 @@ export default function NavbarComponent () {
       window.addEventListener('resize', () => {
         if (window.innerWidth < 930) {
           setIsMini(true);
+          setVisible(false);
         }
         else setIsMini(false);
       })
@@ -39,10 +41,8 @@ export default function NavbarComponent () {
                 <rect y="60" width="100" height="10"></rect>
             </svg>
             <ul className={`nav-bar ${isVisible ? (isMini ? 'd-grid'  : 'd-flex') : 'none'}`}>
-                <li className="nav-li"><a href="/#Why">Why EverRise</a></li>
-                <li className="nav-li"><a href="/#BuyBack">BuyBack</a></li>
+                <li className="nav-li"><a href="/#Why">Whitepaper</a></li>
                 <li className="nav-li"><a href="/#Tokenomics">Tokenomics</a></li>
-                <li className="nav-li"><a href="/#EcosystemDapps">Ecosystem</a></li>
                 <li className="nav-li"><a href="/stats">Stats</a></li>
                 <li className="nav-li"><a href="/team">Team</a></li>
             </ul>

@@ -1,6 +1,6 @@
 body {
   background: #0D1B30 !important;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 html, body, h1, h2, h3, h4, h5, h6 {
@@ -105,7 +105,7 @@ p {
 }
 
 .original-content {
-  max-width: 790px;
+  max-width: 700px;
 }
 
 .original-content h2 {
@@ -536,4 +536,16 @@ h2 {
 
 .footer-btn-group .trade-button{
   margin: 40px 20px 20px 20px ;
+}
+
+.video-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-group video {
+  width: calc(100% - 20px);
+  margin: auto;
+  max-width: 970px;
+  padding-bottom: 40px;
 }

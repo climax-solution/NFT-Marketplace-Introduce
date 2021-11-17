@@ -10,22 +10,22 @@ export default function Home() {
                     <h2 className="gradient">The Original Buyback Hyper-Deflationary Token</h2>
                     <p className="text-white">EverRise token ($RISE or RISE) is a collateralized cryptocurrency that grants investors holding RISE instant rewards on all transactions, and protects them with its unique buyback and burn protocol.</p>
                     <div className="row">
-                        <div className="col-md-4 col-sm-6 col-12">
+                        <div className="col-sm-6 col-12">
                             <button className="trade-button">trade:uniswap</button>
                         </div>
-                        <div className="col-md-4 col-sm-6 col-12">
+                        <div className="col-sm-6 col-12">
                             <button className="trade-button">trade:pancakeswap</button>
                         </div>
-                        <div className="col-md-4 col-sm-6 col-12">
+                        <div className="col-sm-6 col-12">
                             <button className="trade-button">dapp:everown</button>
                         </div>
-                        <div className="col-md-4 col-sm-6 col-12">
+                        <div className="col-sm-6 col-12">
                             <button className="trade-button">chart:dextools(BSC)</button>
                         </div>
-                        <div className="col-md-4 col-sm-6 col-12">
+                        <div className="col-sm-6 col-12">
                             <button className="trade-button">chart:dextools(ETH)</button>
                         </div>
-                        <div className="col-md-4 col-sm-6 col-12">
+                        <div className="col-sm-6 col-12">
                             <button className="trade-button">chat:telegram</button>
                         </div>
                     </div>
@@ -129,6 +129,18 @@ export default function Home() {
             </div>
             <div className="how-to-buy">
                 <h2 className="text-white how-to-buy-title">How To Acquire <span className="gradient">EverRise</span></h2>
+                <div className="video-group">
+                    <video
+                        preload="none"
+                        controls
+                        src=""
+                    />
+                    <video
+                        preload="none"
+                        controls
+                        src=""
+                    />
+                </div>
                 <div>
                     <ol className="how-to-buy-panel two_panel">
                         <li>
