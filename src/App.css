@@ -108,13 +108,16 @@ p {
   max-width: 700px;
 }
 
+.original-content .row {
+  max-width: 500px;
+}
+
 .original-content h2 {
   font-size: 30px !important;
-}
-.original-content h2 {
   padding: 30px 0;
   font-weight: 700;
 }
+
 .gradient {
   background: linear-gradient( 90deg, #F89C47 0%, #F36A34 50%, #EE532B 100%);
   -webkit-background-clip: text;

@@ -11,22 +11,16 @@ export default function Home() {
                     <p className="text-white">EverRise token ($RISE or RISE) is a collateralized cryptocurrency that grants investors holding RISE instant rewards on all transactions, and protects them with its unique buyback and burn protocol.</p>
                     <div className="row">
                         <div className="col-sm-6 col-12">
-                            <button className="trade-button">trade:uniswap</button>
+                            <button className="trade-button">Our charts</button>
                         </div>
                         <div className="col-sm-6 col-12">
-                            <button className="trade-button">trade:pancakeswap</button>
+                            <button className="trade-button">NFT Platform</button>
                         </div>
                         <div className="col-sm-6 col-12">
-                            <button className="trade-button">dapp:everown</button>
+                            <button className="trade-button">Pancakeswap</button>
                         </div>
                         <div className="col-sm-6 col-12">
-                            <button className="trade-button">chart:dextools(BSC)</button>
-                        </div>
-                        <div className="col-sm-6 col-12">
-                            <button className="trade-button">chart:dextools(ETH)</button>
-                        </div>
-                        <div className="col-sm-6 col-12">
-                            <button className="trade-button">chat:telegram</button>
+                            <button className="trade-button">Our social</button>
                         </div>
                     </div>
                     <div className="swap-link mt-4">
@@ -133,12 +127,12 @@ export default function Home() {
                     <video
                         preload="none"
                         controls
-                        src=""
+                        src="https://youtu.be/ZVHuAPhEQR0"
                     />
                     <video
                         preload="none"
                         controls
-                        src=""
+                        src="https://youtu.be/u2XpCjj5TFs"
                     />
                 </div>
                 <div>
