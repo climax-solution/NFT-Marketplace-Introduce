@@ -46,7 +46,7 @@ export default function Home() {
                             <p className="text-white">Buyback function of the EverRise smart contract exchanges liquidity from the reserve liquidity pool for RISE tokens in the main liquidity pool. These tokens are automatically sent to the burn wallet. This adds value to the liquidity pool of the RISE token, and permanently constricts supply.</p>
                             <p className="text-white">So far 276,805,195,807,315 tokens have been burnt, 27.68% of the circulating supply. As all of these tokens were on the market, being bought and sold, this creates a true supply constriction which makes EverRise Hyper-Deflationary.</p>
                             <p className="text-white">EverRise token holders also benefit through a 2% static reflection reward from every transaction.</p>
-                            <a><button className="trade-button text-center">whitepaper</button></a>
+                            <a href="/whitepaper.pdf" target="_blank"><button className="trade-button text-center">whitepaper</button></a>
                         </div>
                     </div>
                 </div>

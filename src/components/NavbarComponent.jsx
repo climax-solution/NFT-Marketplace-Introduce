@@ -41,7 +41,7 @@ export default function NavbarComponent () {
                 <rect y="60" width="100" height="10"></rect>
             </svg>
             <ul className={`nav-bar ${isVisible ? (isMini ? 'd-grid'  : 'd-flex') : 'none'}`}>
-                <li className="nav-li"><a href="/#Why">Whitepaper</a></li>
+                <li className="nav-li"><a href="/whitepaper.pdf" target="_blank">Whitepaper</a></li>
                 <li className="nav-li"><a href="/#Tokenomics">Tokenomics</a></li>
                 <li className="nav-li"><a href="/stats">Stats</a></li>
                 <li className="nav-li"><a href="/team">Team</a></li>
