@@ -7,8 +7,8 @@ export default function Home() {
             <div className="original-buy-back">
                 <div className="original-content m-auto">
                     <img src="/img/logo_header_white.png"/>
-                    <h2 className="gradient">The Original Buyback Hyper-Deflationary Token</h2>
-                    <p className="text-white">EverRise token ($RISE or RISE) is a collateralized cryptocurrency that grants investors holding RISE instant rewards on all transactions, and protects them with its unique buyback and burn protocol.</p>
+                    <h2 className="gradient">An ecosystem of NFTs representing real world assets</h2>
+                    <p className="text-white">NFT Developments (NFTD$) is a reflection token rewarding holders on all transactions. NFTD$ is the fundamental token within the NFT Development ecosystem</p>
                     <div className="row">
                         <div className="col-sm-6 col-12">
                             <button className="trade-button">Our charts</button>
@@ -25,11 +25,11 @@ export default function Home() {
                     </div>
                     <div className="swap-link mt-4">
                         <div className="uniswap">
-                            <h6 className="text-white">ETH Contract Address (Uniswap)</h6>
+                            <h6 className="text-white">BSC Contract Address</h6>
                             <span className="text-white">0x8a2d988fe2e8c6716cbcef1b33df626c692f7b98 <i className="fa fa-clone"/></span>
                         </div>
                         <div className="uniswap">
-                            <h6 className="text-white">ETH Contract Address (Pancakeswap V2)</h6>
+                            <h6 className="text-white">BSC Contract Address</h6>
                             <span className="text-white">0x8a2d988fe2e8c6716cbcef1b33df626c692f7b98 <i className="fa fa-clone"/></span>
                         </div>
                     </div>

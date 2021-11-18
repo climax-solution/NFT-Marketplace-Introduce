@@ -97,7 +97,7 @@ p {
 }
 
 .original-buy-back {
-  background-image: url('./img/crimsonblue-1920.avif');
+  background-image: url('./img/top-1.jpg');
   min-height: calc(max(57vw,371px));
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,6 +110,7 @@ p {
 
 .original-content .row {
   max-width: 500px;
+  margin: auto;
 }
 
 .original-content h2 {
@@ -128,10 +129,11 @@ p {
 
 .trade-button {
   background: linear-gradient( 90deg, #F89C47 0%, #F36A34 50%, #DC413D 100%);
-  border: 0px none;
+  border: none;
+  box-shadow: 0 4px 15px 0 rgb(229 66 10 / 75%);
   color: white;
   width: 100%;
-  max-width: 212px;
+  max-width: 200px;
   margin: 20px 6px;
   vertical-align: middle;
   font-weight: 700;
@@ -140,10 +142,11 @@ p {
   cursor: pointer;
   font-size: 13px;
   text-transform: uppercase;
+  border-radius: 25px;
 }
 
 .trade-button:before {
-  content: "";
+  /* content: "";
   border: 4px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient( 90deg, #F89C47 0%, #F36A34 50%, #DC413D 100%);
@@ -153,11 +156,14 @@ p {
   top: -8px;
   left: -8px;
   height: 68px;
-  pointer-events: none;
+  pointer-events: none; */
+  /* background: #52A0FD;
+  background: linear-gradient(to right, #52A0FD 0%, #00e2fa 80%, #00e2fa 100%); */
 }
 
 .trade-button:hover {
-  background: linear-gradient( 90deg, #07EFF0 0%, #06BDF9 50%, #0682DA 100%);
+  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  box-shadow: 0 4px 15px 0 rgb(49 196 190 / 75%);
 }
 
 .trade-button:hover:before {
@@ -189,7 +195,7 @@ p {
 }
 .buyback-function {
   padding: 40px;
-  background-image: url(./img/kraken_whale.avif);
+  background-image: url(./img/buy.jpg);
   background-size: cover;
   padding-bottom: 80px;
 }

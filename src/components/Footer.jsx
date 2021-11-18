@@ -20,13 +20,13 @@ export default function Footer ({at}) {
                     </div>
                 }
                 <div className="socials">
-                    <a><img src="/img/3rd-party/twitter.png"/></a>
-                    <a><img src="/img/3rd-party/instagram.png"/></a>
-                    <a><img src="/img/3rd-party/telegram.png"/></a>
-                    <a><img src="/img/3rd-party/reddit.png"/></a>
-                    <a><img src="/img/3rd-party/discord.png"/></a>
-                    <a><img src="/img/3rd-party/youtube.png"/></a>
-                    <a><img src="/img/3rd-party/BscScan.png"/></a>
+                    <a href="https://twitter.com/NFTDevelopments" target="_blank"><img src="/img/socials/twitter.png"/></a>
+                    <a href="https://instagram.com/NFTDevelopments" target="_blank"><img src="/img/socials/instagram.png"/></a>
+                    <a href="https://tiktok.com/@NFTDevelopments" target="_blank"><img src="/img/socials/tiktok.png"/></a>
+                    <a href="https://www.youtube.com/channel/UCbPW7kuPqflfqplBZy8knsg" target="_blank"><img src="/img/socials/youtube.png"/></a>
+                    <a href="https://www.linkedin.com/in/nft-developments-372a08222/" target="_blank"><img src="/img/socials/linkedin.png"/></a>
+                    <a href="mailto:Enquire@NFTDevelopments.com" target="_blank"><img src="/img/socials/mail.png"/></a>
+                    <a href="https://t.me/NFTdevelopments" target="_blank"><img src="/img/socials/telegram.png"/></a>
                 </div>
                 <div className="">
                     <p className="text-muted">Copyright © 2021 EverRise<br/>
